@@ -1,1 +1,1 @@
-# gitlvt.github.io
+# e-commerce template
