@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+            <title>Redirection Webpage</title>
+    
+     
+      
+      
+          <style type="text/css">
+		
+           body {backgroud-color:blue}
+		
+	</style>
+	
+   
+       
+</head>
+     
+ 
+  
+    
+<body>
+    
+
+<div align="center"><img src="/image/loading_icon.gif" width="441px" height="auto" /></div>
+
+
+<h1>Redirecting, please wait...</h1>
+
+     <script>
+         setTimeout(function(){
+            window.location.href = 'https://sourcecodec.net/downloads/source-code-website-tim-kiem-va-cho-thue-phong-tro-java-full-bao-cao-sql/';
+         }, 3000);
+      </script>
+    
+     
+      
+      <h3>Automatically redirecting URL, please wait... <span style="color:blue" id="countdowntimer">3 </span> Seconds</h3>
+
+      <h3 style="color:blue" >OR <a href="https://sourcecodec.net/downloads/source-code-website-tim-kiem-va-cho-thue-phong-tro-java-full-bao-cao-sql/">click here</a></h3>
+      
+     
+        <script type="text/javascript">
+  	
+var timeleft = 3;
+    var downloadTimer = setInterval(function(){
+    timeleft--;
+    document.getElementById("countdowntimer").textContent = timeleft;
+    if(timeleft <= 0)
+        clearInterval(downloadTimer);
+    },1000);
+  	
+  </script>
+      
+</body>
+</html>

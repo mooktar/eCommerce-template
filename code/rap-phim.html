@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+            <title>Redirection Webpage</title>
+
+            <style type="text/css">
+                
+             h1 span {color#fff};
+
+
+            </style>
+       
+</head>
+     
+    
+<body style="background:#007bff!important">
+    
+
+<div align="center"><img src="/loading.gif" width="210px" height="auto" /></div>
+
+
+<h1 align="center" ><span style="color:#fff">Redirecting, please wait...<span> <span style="color:#fff" id="countdowntimer">3 </span> Seconds</h1>
+
+     <script>
+         setTimeout(function(){
+            window.location.href = 'https://sourcecodec.net/downloads/source-code-java-phan-mem-he-thong-quan-ly-rap-phim/';
+         }, 3000);
+      </script>
+
+
+
+       <script type="text/javascript">
+    
+var timeleft = 3;
+    var downloadTimer = setInterval(function(){
+    timeleft--;
+    document.getElementById("countdowntimer").textContent = timeleft;
+    if(timeleft <= 0)
+        clearInterval(downloadTimer);
+    },1000);
+    
+  </script>
+    
+      
+</body>
+</html>
